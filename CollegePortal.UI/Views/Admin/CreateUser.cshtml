@@ -1,0 +1,13 @@
+﻿
+<form asp-action="CreateUser" method="post">
+    <input name="UserName" placeholder="Username" />
+    <input name="Password" type="password" placeholder="Password" />
+
+    <select name="Role">
+        <option>Teacher</option>
+        <option>Student</option>
+        <option>Admin</option>
+    </select>
+
+    <button type="submit">Create User</button>
+</form>

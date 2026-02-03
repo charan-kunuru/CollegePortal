@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAPI", "EmployeeAPI\EmployeeAPI.csproj", "{596428E3-BE4E-46F1-8D9F-F922E4B5E4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegePortal.UI", "..\CollegePortal.UI\CollegePortal.UI.csproj", "{C38EE775-3CAE-4281-AEA3-17F24B72D91B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596428E3-BE4E-46F1-8D9F-F922E4B5E4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596428E3-BE4E-46F1-8D9F-F922E4B5E4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596428E3-BE4E-46F1-8D9F-F922E4B5E4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596428E3-BE4E-46F1-8D9F-F922E4B5E4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38EE775-3CAE-4281-AEA3-17F24B72D91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38EE775-3CAE-4281-AEA3-17F24B72D91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38EE775-3CAE-4281-AEA3-17F24B72D91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38EE775-3CAE-4281-AEA3-17F24B72D91B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CAFC49-E20D-4903-8A52-541C582243DB}
+	EndGlobalSection
+EndGlobal
