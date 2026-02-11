@@ -1,0 +1,632 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Asp\\ASP.NET Core\\CollegePortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\collegeportal.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\branch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\branchcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\controllers\\authcontroller.cs\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\services\\interface\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\branch\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\branch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\allusersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\views\\branch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\dtos\\admin\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\dtos\\admin\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\dtos\\branch\\branchresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A72F614-6B41-6491-6711-7BD2DB72414C}|..\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj|c:\\asp\\asp.net core\\employeeapi\\employeeapi\\dtos\\branch\\branchcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\loginrequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\models\\viewmodels\\loginresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27664BF-D86B-5DDD-7720-05B9F97D12E4}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal.ui\\enum\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 356,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T17:27:34.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollegePortal.UI",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\CollegePortal.UI.csproj",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\CollegePortal.UI.csproj",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\CollegePortal.UI.csproj",
+              "RelativeToolTip": "..\\CollegePortal.UI\\CollegePortal.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T17:27:13.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Program.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Program.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T17:00:09.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:34:29.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BranchCreateVM.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\BranchCreateVM.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\BranchCreateVM.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\BranchCreateVM.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\BranchCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:48:49.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T16:22:38.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Branch\\Index.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Index.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Branch\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:36:10.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:13:30.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:46:53.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:46:40.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:42:00.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:42:59.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:25:51.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:15:16.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:45:21.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:15:14.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T16:02:29.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:51:52.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBranchService.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IBranchService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IBranchService.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IBranchService.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IBranchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:51:06.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:47:36.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Branch\\Delete.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Delete.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Branch\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:00:44.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Branch\\Create.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Create.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Branch\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:00:43.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Views\\Branch\\Edit.cshtml",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Branch\\Edit.cshtml",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Views\\Branch\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T15:00:47.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AllUsersVM.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\AllUsersVM.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\AllUsersVM.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\AllUsersVM.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\AllUsersVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:54:27.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:08:08.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:12:20.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:01:51.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAjwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:02:44.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:03:35.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:01:53.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:04:38.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Models\\User.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:02:32.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BranchResponseDto.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchResponseDto.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchResponseDto.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:01:37.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BranchCreateDto.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchCreateDto.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchCreateDto.cs",
+              "RelativeToolTip": "..\\EmployeeAPI\\EmployeeAPI\\DTOs\\Branch\\BranchCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T15:01:35.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:52:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginRequestVM.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:52:31.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginResponseVM.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:52:29.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Enum\\UserRole.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Enum\\UserRole.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Enum\\UserRole.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Enum\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:47:11.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
