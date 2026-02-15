@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1 class="mb-4">Admin Dashboard</h1>
+
+<div class="mb-3">
+    <a asp-controller="Login" asp-action="Logout" class="btn btn-danger">Logout</a>
+</div>
+
+<p class="lead">
+    Welcome to the admin dashboard. Here you can manage users, branches, semesters, and subjects.
+</p>
+
+<div class="row mt-4">
+
+    <div class="col-md-3 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">Users</h5>
+                <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">
+                    Manage Users
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">Branches</h5>
+                <a asp-controller="Branch" asp-action="Index" class="btn btn-primary">
+                    Manage Branches
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">Semesters</h5>
+                <a asp-controller="Semester" asp-action="Index" class="btn btn-primary">
+                    Manage Semesters
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">Subjects</h5>
+                <a asp-controller="Subject" asp-action="Index" class="btn btn-primary">
+                    Manage Subjects
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

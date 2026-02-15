@@ -21,7 +21,7 @@ public class JwtTokenService : IJwtTokenService
         var claims = new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
-            new Claim(JwtRegisteredClaimNames.UniqueName,user.RollNo),
+            new Claim(JwtRegisteredClaimNames.UniqueName,user.UserName),
             new Claim(ClaimTypes.Role, user.Role),
         };
 

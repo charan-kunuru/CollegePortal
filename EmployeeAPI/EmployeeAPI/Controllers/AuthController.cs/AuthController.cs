@@ -19,9 +19,10 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Login(LoginRequestDto dto)
     {
         var token = await _authService.LoginAsync(dto);
+
         if (token == null)
-            return Unauthorized(new { message = "Invalid Username or Password" });
-        return Ok(new LoginResponseDto
+            return BadRequest("Invalid Username or Password");
+        return Ok(new LoginResultDto
         {
             Token = token.Token,
             Role=token.Role

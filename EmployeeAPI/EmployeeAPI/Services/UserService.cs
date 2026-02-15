@@ -11,29 +11,72 @@ namespace EmployeeAPI.Services
 {
     public class UserService: IUserService
     {
-        private readonly IUserRepository _UserRepo;
+        private readonly IUserRepository _repo;
         private readonly IPasswordHasher _hasher;
         public UserService(IUserRepository UserRepo,IPasswordHasher hasher) 
         {
-            _UserRepo= UserRepo;
+            _repo= UserRepo;
             _hasher= hasher;
         }
-       public async Task<User> CreateUserAsync(CreateUserDto dto)
+
+
+       public async Task<List<UserResponseDto>> GetAllUsersAsync()
+    {
+        var users = await _repo.GetAllUsersAsync();
+
+        return users.Select(u => new UserResponseDto
         {
-            if (await _UserRepo.GetUserByRollNoAsync(dto.RollNo)!=null)
+            Id = u.Id,
+            UserName = u.UserName,
+            Role = u.Role
+        }).ToList();
+    }
+
+        public async Task<UserResponseDto?> GetUserByIdAsync(int id)
+        {
+            var user = await _repo.GetUserByIdAsync(id);
+            if (user == null) return null;
+
+            return new UserResponseDto
             {
-                throw new Exception("User with this roll number already exists.");
-            }
+                Id = user.Id,
+                UserName = user.UserName,
+                Role = user.Role
+            };
+        }
+
+        public async Task CreateUserAsync(CreateUserDto dto)
+        {
+            var existing = await _repo.GetUserByUserNameAsync(dto.UserName);
+            if (existing != null) return;
+
             var user = new User
             {
-                RollNo = dto.RollNo,
+                UserName = dto.UserName,
                 PasswordHash = _hasher.Hash(dto.Password),
                 Role = dto.Role,
                 IsActive = true
             };
-            await _UserRepo.AddUserAsync(user);
-            await _UserRepo.SaveChangesAsync();
-            return user;
+
+            await _repo.AddAsync(user);
         }
+
+        public async Task UpdateUserAsync(int id, UserResponseDto dto)
+        {
+            var user = await _repo.GetUserByIdAsync(id);
+            if (user == null) return;
+
+            user.Role = dto.Role;
+            await _repo.UpdateAsync(user);
+        }
+
+        public async Task DeleteUserAsync(int id)
+        {
+            var user = await _repo.GetUserByIdAsync(id);
+            if (user == null) return;
+
+            await _repo.DeleteAsync(user);
+        }
+
     }
 }

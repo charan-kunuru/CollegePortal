@@ -1,34 +1,119 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CollegePortal.UI.Models.ViewModels;
 using System.Net.Http.Headers;
-
-public class AdminController : Controller
+using CollegePortal.UI.Controllers;
+using System.Net.Http.Json;
+using System.Net.Http;
+using Microsoft.AspNetCore.Authorization;
+namespace CollegePortal.UI.Controllers
 {
-    private readonly IHttpClientFactory _httpClient;
-
-    public AdminController(IHttpClientFactory httpClient)
+    public class AdminController : BaseController
     {
-        _httpClient =httpClient ;
-    }
+        private readonly HttpClient _httpClient;
+
+        public AdminController(IHttpClientFactory factory)
+        {
+            _httpClient = factory.CreateClient("EmployeeAPI");
+        }
+
+        private void AddToken()
+        {
+            var token = HttpContext.Session.GetString("JWT");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            AddToken();
+            var response = await _httpClient.GetAsync("api/admin");
+
+            if (!response.IsSuccessStatusCode)
+                return View(new List<AllUsersVM>());
+
+            var users = await response.Content.ReadFromJsonAsync<List<AllUsersVM>>();
+            return View(users ?? new List<AllUsersVM>());
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateUserVM model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            AddToken();
+
+
+            var dto = new
+            {
+                userName = model.UserName,
+                password = model.Password,
+                role = model.Role.ToString()   // IMPORTANT
+            };
+
+            var response = await _httpClient.PostAsJsonAsync("api/admin",dto);
+
+            if (!response.IsSuccessStatusCode)
+                return View(model);
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            AddToken();
+            var response = await _httpClient.GetAsync($"api/admin/{id}");
+
+            if (!response.IsSuccessStatusCode)
+                return RedirectToAction("Index");
+
+            var user = await response.Content.ReadFromJsonAsync<AllUsersVM>();
+            return View(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(AllUsersVM model)
+        {
+            AddToken();
+            var response = await _httpClient.PutAsJsonAsync($"api/admin/{model.Id}", model);
+
+            if (!response.IsSuccessStatusCode)
+                return View(model);
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            AddToken();
+            var response = await _httpClient.GetAsync($"api/admin/{id}");
+
+            if (!response.IsSuccessStatusCode)
+                return RedirectToAction("Index");
+
+            var user = await response.Content.ReadFromJsonAsync<AllUsersVM>();
+            return View(user);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            AddToken();
+            await _httpClient.DeleteAsync($"api/admin/{id}");
+            return RedirectToAction("Index");
+        }
 
 
 
-    [HttpPost]
-    public async Task<IActionResult> CreateUser(CreateUserVM model)
-    {
-        var token = HttpContext.Session.GetString("JWT");
-
-        var client = _httpClient.CreateClient();
-        client.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
-
-        var response = await client.PostAsJsonAsync(
-            "https://localhost:7045/api/admin/create-user", model);
-
-        if (!response.IsSuccessStatusCode)
-            return View("Error");
-
-        return RedirectToAction("CreateUser");
     }
 }
 

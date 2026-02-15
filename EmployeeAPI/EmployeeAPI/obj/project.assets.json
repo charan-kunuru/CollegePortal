@@ -4213,6 +4213,7 @@
     "net8.0": [
       "BCrypt.Net-Next >= 4.0.3",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.23",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.23",
       "Swashbuckle.AspNetCore >= 6.6.2",
@@ -4226,11 +4227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
-      "projectName": "EmployeeAPI",
-      "projectPath": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+      "projectUniqueName": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\CollegeAPI.csproj",
+      "projectName": "CollegeAPI",
+      "projectPath": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\CollegeAPI.csproj",
       "packagesPath": "C:\\Users\\kunur\\.nuget\\packages\\",
-      "outputPath": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\obj\\",
+      "outputPath": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4278,6 +4279,12 @@
             "target": "Package",
             "version": "[8.0.23, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.23, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.23, )"
@@ -4311,19 +4318,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.24, 8.0.24]"
           }
         ],
         "frameworkReferences": {
@@ -4334,7 +4341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

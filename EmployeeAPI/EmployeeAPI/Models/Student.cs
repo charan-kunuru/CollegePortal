@@ -12,6 +12,13 @@ namespace EmployeeAPI.Models
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
+        public int BranchId { get; set; }
+        public Branch Branch { get; set; }
+
+        public int SemesterId { get; set; }
+        public Semester Semester { get; set; }
+
+
 
         public int Age { get; set; }
 
@@ -38,6 +45,14 @@ namespace EmployeeAPI.Models
         public string MotherName { get; set; }
 
         public int MobileNumber { get; set; }
+
+
+        public ICollection<StudentSubject> StudentSubjects { get; set; }
+        public ICollection<Attendance> Attendances { get; set; }
+        public ICollection<Fee> Fees { get; set; }
+        public ICollection<Feedback> Feedbacks { get; set; }
+
+        public ICollection<Mark> Marks { get; set; }
 
 
     }

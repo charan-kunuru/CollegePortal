@@ -1,0 +1,26 @@
+﻿@model SemesterCreateVM
+
+@{
+    ViewData["Title"] = "Delete Semester";
+}
+
+<h2>Delete Semester</h2>
+
+<div class="alert alert-danger">
+    <h5>Are you sure you want to delete this semester?</h5>
+</div>
+
+<div class="mb-3">
+    <strong>Semester No:</strong> @Model.SemesterNo
+</div>
+
+<div class="mb-3">
+    <strong>Branch:</strong> @ViewBag.BranchName
+</div>
+
+<form asp-action="Delete" method="post">
+    <input asp-for="SemesterId" type="hidden" />
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

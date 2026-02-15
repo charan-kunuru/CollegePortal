@@ -18,7 +18,7 @@ public static class AdminSeeder
             var admin = new User
             {
                
-                RollNo="Charan Kunuru",
+                UserName="Charan Kunuru",
                 PasswordHash = hasher.Hash("Charan@123"),
                 Role = "Admin",
                 IsActive = true

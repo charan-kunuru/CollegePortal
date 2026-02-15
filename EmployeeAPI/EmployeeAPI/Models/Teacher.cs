@@ -1,4 +1,6 @@
-﻿namespace EmployeeAPI.Models
+﻿using System.Xml;
+
+namespace EmployeeAPI.Models
 {
     public class Teacher
     {
@@ -9,8 +11,9 @@
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
+        public int BranchId { get; set; }
+        public Branch Branch { get; set; }
 
-        public int DepartmentId { get; set; }
         public int Age { get; set; }
         public bool IsActive { get; set; } = true;
         public string PhotoPath { get; set; }
@@ -22,9 +25,11 @@
 
         public int MobileNumber { get; set; }
 
-        public string Designation { get; set; }
-
         public DateOnly Joined { get; set; }
+
+        public ICollection<TeacherSubject> TeacherSubjects { get; set; }
+        public ICollection<Feedback> Feedbacks { get; set; }
+     
 
     }
 }

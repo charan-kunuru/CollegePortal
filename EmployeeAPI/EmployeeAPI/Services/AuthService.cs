@@ -22,15 +22,15 @@ public class AuthService : IAuthService
     public async Task<LoginResultDto> LoginAsync(LoginRequestDto dto)
     {
         var user = await _context.Users
-            .FirstOrDefaultAsync(u => u.RollNo == dto.UserName);
+            .FirstOrDefaultAsync(u => u.UserName == dto.UserName);
 
         if (user == null || !user.IsActive)
             return null;
-        //throw new Exception("Invalid user");
+       
 
         if (!_hasher.Verify(dto.Password, user.PasswordHash))
             return null;
-            //throw new Exception("Invalid password");
+           
 
         var token= _jwt.GenerateToken(user);
 

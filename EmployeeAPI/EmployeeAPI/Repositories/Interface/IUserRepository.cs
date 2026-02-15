@@ -3,8 +3,11 @@ namespace EmployeeAPI.Repositories.Interface
 {
     public interface IUserRepository
     {
-        Task<User?> GetUserByRollNoAsync(string rollNo);
-        Task AddUserAsync(User user);
-        Task SaveChangesAsync();
+        Task<List<User>> GetAllUsersAsync();
+        Task<User?> GetUserByIdAsync(int id);
+        Task<User?> GetUserByUserNameAsync(string userName);
+        Task AddAsync(User user);
+        Task UpdateAsync(User user);
+        Task DeleteAsync(User user);
     }
 }

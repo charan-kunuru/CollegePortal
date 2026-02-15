@@ -1,0 +1,27 @@
+﻿@model SemesterCreateVM
+
+@{
+    ViewData["Title"] = "Create Semester";
+}
+
+<h2>Create Semester</h2>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="SemesterNo" class="form-label"></label>
+        <input asp-for="SemesterNo" class="form-control" />
+        <span asp-validation-for="SemesterNo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BranchId" class="form-label">Branch</label>
+        <input asp-for="BranchId" class="form-control" />
+        <span asp-validation-for="BranchId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

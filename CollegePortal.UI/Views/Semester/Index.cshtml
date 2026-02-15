@@ -1,0 +1,45 @@
+﻿@model IEnumerable<SemesterResponseVM>
+
+@{
+    ViewData["Title"] = "Semesters";
+}
+
+<h2 class="mb-3">Semesters</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add Semester</a>
+<a asp-controller="Dashboard" asp-action="AdminDashboard" class="btn btn-secondary">Back</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No semesters found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Semester No</th>
+                <th>Branch</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SemesterNo</td>
+                    <td>@item.BranchName</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.SemesterId"
+                           class="btn btn-sm btn-warning">Edit</a>
+
+                        <a asp-action="Delete" asp-route-id="@item.SemesterId"
+                           class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

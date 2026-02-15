@@ -1,32 +1,36 @@
-﻿using System.ComponentModel;
+﻿using EmployeeAPI.Models;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 namespace EmployeeAPI.DTOs.Teacher
 {
     public class TeacherCreateDto
     {
         [Required]
-        public string UserName { get; set; }
+        [MaxLength(30)]
+        public string FirstName { get; set; }
         [Required]
-        [DataType(DataType.Password)]
-        public string PasswordHash { get; set; }
-        public string TeacherId { get; set; }
+        [MaxLength (30)]
+        public string LastName { get; set; }
         [Required]
         public int DepartmentId { get; set; }
         [Required]
-        public string Name { get; set; }
-        [Range(18, 65, ErrorMessage = "Age should be valid")]
+        [Range(18, 30, ErrorMessage = "Age must be between 18 and 30.")]
         public int Age { get; set; }
-        [Required]
-        public bool IsActive { get; set; }
-
-        public string PhotoPath { get; set; }
+        public string?  PhotoPath { get; set; }
         [Required]
         [DataType(DataType.Date)]
         public DateOnly Dob { get; set; }
-        [Required]
         [EmailAddress]
         public string Email { get; set; }
         public string Address { get; set; }
+
+        public string Gender { get; set; }
+        [DataType(DataType.PhoneNumber)]
+        public int MobileNumber { get; set; }
+
+
+        [DataType(DataType.Date)]
+        public DateOnly Joined { get; set; }
 
 
     }

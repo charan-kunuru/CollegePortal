@@ -7,22 +7,43 @@ namespace EmployeeAPI.Repositories
 {
     public class UserRepository: IUserRepository
     {
-        private readonly AppDbContext _Context;
+        private readonly AppDbContext _context;
         public UserRepository (AppDbContext Context) 
         {
-              _Context= Context;
+              _context= Context;
         }
-        public async Task<User?> GetUserByRollNoAsync(string rollNo)
+
+        public async Task<List<User>> GetAllUsersAsync()
         {
-            return await _Context.Users.FirstOrDefaultAsync(u => u.RollNo == rollNo);
+            return await _context.Users.ToListAsync();
         }
-        public async Task AddUserAsync(User user)
+
+        public async Task<User?> GetUserByIdAsync(int id)
         {
-            await _Context.Users.AddAsync(user);
+            return await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
         }
-        public async Task SaveChangesAsync()
+
+        public async Task<User?> GetUserByUserNameAsync(string userName)
         {
-            await _Context.SaveChangesAsync();
+            return await _context.Users.FirstOrDefaultAsync(x => x.UserName == userName);
+        }
+
+        public async Task AddAsync(User user)
+        {
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(User user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(User user)
+        {
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
         }
     }
 }

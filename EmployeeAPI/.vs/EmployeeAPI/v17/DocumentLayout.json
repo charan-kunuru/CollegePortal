@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C38EE775-3CAE-4281-AEA3-17F24B72D91B}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal\\collegeportal.ui\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C38EE775-3CAE-4281-AEA3-17F24B72D91B}|..\\CollegePortal.UI\\CollegePortal.UI.csproj|c:\\asp\\asp.net core\\collegeportal\\collegeportal.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -216,11 +222,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Program.cs",
@@ -233,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "EmployeeAPI.http",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.http",
               "RelativeDocumentMoniker": "EmployeeAPI\\EmployeeAPI.http",
@@ -246,31 +252,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "..\\..\\CollegePortal.UI\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T08:09:21.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Services\\LoginService.cs",
-              "RelativeToolTip": "..\\..\\CollegePortal.UI\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T17:37:49.304Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T11:46:16.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\CollegePortal.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\CollegePortal.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal\\CollegePortal.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\CollegePortal.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T11:46:13.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Program.cs",
@@ -284,6 +292,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 44,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "..\\..\\CollegePortal.UI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:09:21.522Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Services\\LoginService.cs",
+              "RelativeToolTip": "..\\..\\CollegePortal.UI\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T17:37:49.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Services\\Interfaces\\ILoginService.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Services\\Interfaces\\ILoginService.cs",
@@ -295,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Controllers\\AdminController.cs",
@@ -307,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\AuthService.cs",
@@ -319,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\JwtTokenService.cs",
@@ -331,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IAuthService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\Interface\\IAuthService.cs",
@@ -343,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BCryptPasswordHasher.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\BCryptPasswordHasher.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\BCryptPasswordHasher.cs",
@@ -355,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Controllers\\HomeController.cs",
@@ -367,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\AuthController.cs\\AuthController.cs",
@@ -379,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\UserService.cs",
@@ -391,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "CreateUserVM.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Models\\ViewModels\\CreateUserVM.cs",
@@ -403,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "LoginRequestVM.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Models\\ViewModels\\LoginRequestVM.cs",
@@ -415,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\Interface\\IUserService.cs",
@@ -427,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "CreateUser.cshtml",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Views\\Admin\\CreateUser.cshtml",
@@ -439,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserResponseDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Admin\\UserResponseDto.cs",
@@ -451,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Admin\\CreateUserDto.cs",
@@ -463,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\Interface\\IPasswordHasher.cs",
@@ -475,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\AdminController.cs",
@@ -487,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Services\\Interface\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Services\\Interface\\IJwtTokenService.cs",
@@ -499,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Views\\Login\\Login.cshtml",
@@ -511,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\appsettings.json",
@@ -523,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "LoginResponseVM.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Models\\ViewModels\\LoginResponseVM.cs",
@@ -535,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "LoginResultDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Auth\\LoginResultDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Auth\\LoginResultDto.cs",
@@ -547,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Auth\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Auth\\LoginResponseDto.cs",
@@ -559,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Auth\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Auth\\LoginRequestDto.cs",
@@ -571,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Views\\_ViewStart.cshtml",
@@ -583,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Views\\_ViewImports.cshtml",
@@ -595,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\CollegePortal.UI\\Models\\ViewModels\\LoginViewModel.cs",
@@ -607,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Repositories\\UserRepository.cs",
@@ -619,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Repositories\\Interface\\IStudentRepository.cs",
@@ -631,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Models\\User.cs",
@@ -643,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Controllers\\TestController.cs",
@@ -655,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Repositories\\StudentRepository.cs",
@@ -667,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Repositories\\Interface\\IUserRepository.cs",
@@ -679,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Data\\AppDbContext.cs",
@@ -691,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AdminSeedercs.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Data\\Seed\\AdminSeedercs.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Data\\Seed\\AdminSeedercs.cs",
@@ -703,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "20260202151805_ConfigaurationUserRelation.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202151805_ConfigaurationUserRelation.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20260202151805_ConfigaurationUserRelation.cs",
@@ -715,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EmployeeAPI\\appsettings.json",
@@ -727,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "20260202092423_UpdateUserStudentRelation.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202092423_UpdateUserStudentRelation.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20260202092423_UpdateUserStudentRelation.cs",
@@ -739,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "20260202092352_UpdateUserTeacherRelation.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202092352_UpdateUserTeacherRelation.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20260202092352_UpdateUserTeacherRelation.cs",
@@ -751,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "20260202092313_InitialCreate.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202092313_InitialCreate.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Migrations\\20260202092313_InitialCreate.cs",
@@ -763,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "20260202091808_UpdateTeacherSchema.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091808_UpdateTeacherSchema.cs",
               "RelativeDocumentMoniker": "..\\..\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091808_UpdateTeacherSchema.cs",
@@ -775,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "20260202091738_UpdateStudentSchema.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091738_UpdateStudentSchema.cs",
               "RelativeDocumentMoniker": "..\\..\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091738_UpdateStudentSchema.cs",
@@ -787,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "20260202091714_UpdateUserSchema.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091714_UpdateUserSchema.cs",
               "RelativeDocumentMoniker": "..\\..\\EmployeeAPI\\EmployeeAPI\\Migrations\\20260202091714_UpdateUserSchema.cs",
@@ -799,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Teacher.cs",
@@ -811,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Models\\Student.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Models\\Student.cs",
@@ -823,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "StudentCreateDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Student\\StudentCreateDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Student\\StudentCreateDto.cs",
@@ -835,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "TeacherResponseDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Teacher\\TeacherResponseDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Teacher\\TeacherResponseDto.cs",
@@ -847,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "TeacherCreateDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Teacher\\TeacherCreateDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Teacher\\TeacherCreateDto.cs",
@@ -859,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "GetAllTeacher.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\Repositories\\GetAllTeacher.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Repositories\\GetAllTeacher.cs",
@@ -871,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "StudentResponseDto.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\DTOs\\Student\\StudentResponseDto.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\DTOs\\Student\\StudentResponseDto.cs",
@@ -883,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Asp\\ASP.NET Core\\CollegePortal\\EmployeeAPI\\EmployeeAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\WeatherForecast.cs",

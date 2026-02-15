@@ -34,8 +34,15 @@ builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddScoped<IPasswordHasher, BCryptPasswordHasher>();
 
 
+
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IBranchRepository, BranchRepository>();
+builder.Services.AddScoped<IBranchService, BranchService>();
+builder.Services.AddScoped<ISemesterRepository, SemesterRepository>();
+builder.Services.AddScoped<ISemesterService, SemesterService>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowMVC",
@@ -104,6 +111,13 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions => sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null)));
 
 //
 // 🔹 2. BUILD APP
@@ -113,24 +127,24 @@ var app = builder.Build();
 //
 // 🔹 3. RUN SEEDER (AFTER BUILD, WITH SCOPE)
 //
-await using (var scope = app.Services.CreateAsyncScope())
+   await using (var scope = app.Services.CreateAsyncScope())
 {
     // var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     // var hasher = scope.ServiceProvider.GetRequiredService<IPasswordHasher>();
 
 
-    await AdminSeeder.SeedAdmin(scope.ServiceProvider);
+  await AdminSeeder.SeedAdmin(scope.ServiceProvider);
 
 }
 
 //
 // 🔹 4. MIDDLEWARE PIPELINE (ORDER MATTERS)
 //
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 
 
