@@ -1,6 +1,5 @@
 ﻿using CollegeAPI.Modules.Auth.Dtos;
 using CollegeAPI.Modules.Auth.Services.Interface;
-using CollegeAPI.Models;
 using CollegeAPI.Data;
 using Microsoft.EntityFrameworkCore;
 

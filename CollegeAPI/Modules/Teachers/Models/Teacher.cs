@@ -1,7 +1,6 @@
 ﻿using CollegeAPI.Modules.Branches.Models;
 using CollegeAPI.Modules.Users.Models;
 using CollegeAPI.Models;
-using System.Xml;
 
 namespace CollegeAPI.Modules.Teachers.Models
 {
