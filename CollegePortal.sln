@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegePortal.UI", "..\CollegePortal.UI\CollegePortal.UI.csproj", "{C27664BF-D86B-5DDD-7720-05B9F97D12E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeAPI", "..\EmployeeAPI\EmployeeAPI\CollegeAPI.csproj", "{8A72F614-6B41-6491-6711-7BD2DB72414C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeAPI", "CollegeAPI\CollegeAPI.csproj", "{D2B82727-6A5F-318E-A625-FBFDE6DFEDF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C27664BF-D86B-5DDD-7720-05B9F97D12E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27664BF-D86B-5DDD-7720-05B9F97D12E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27664BF-D86B-5DDD-7720-05B9F97D12E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A72F614-6B41-6491-6711-7BD2DB72414C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A72F614-6B41-6491-6711-7BD2DB72414C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A72F614-6B41-6491-6711-7BD2DB72414C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A72F614-6B41-6491-6711-7BD2DB72414C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B82727-6A5F-318E-A625-FBFDE6DFEDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B82727-6A5F-318E-A625-FBFDE6DFEDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B82727-6A5F-318E-A625-FBFDE6DFEDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B82727-6A5F-318E-A625-FBFDE6DFEDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
